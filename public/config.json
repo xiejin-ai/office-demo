@@ -1,0 +1,22 @@
+{
+    "name" : "Joker",
+    "guid" : "asc.{AC3A8968-E98E-4BAC-ADB0-2B0E23AC5AA3}",
+    "variations" : [
+        {
+          "description" : "",
+          "url"         : "index.html",
+          "icons"           : ["icon.png"],
+          "isViewer"        : false,
+          "EditorsSupport"  : ["word"],
+          "isVisual"        : false,
+          "isModal"         : false,
+          "isInsideMode"    : true,
+          "hideClose"       : true,
+          "initDataType"    : "",
+          "initData"        : "",
+          "isUpdateOleOnResize" : false,
+          "buttons"         : [],
+          "events": ["onCommentClick", "onClick"]
+        }
+    ]
+  }
