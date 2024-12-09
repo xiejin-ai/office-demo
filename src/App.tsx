@@ -92,7 +92,7 @@ const [fileType,setFileType] = useState('pdf')
 const [documentType,setDocumentType] = useState('word')
 
   const config: IConfig = useMemo(()=>{
-    return {
+    const a = {
       document: {
         fileType: fileType,
         key: key, // 更换文件需要更换key
@@ -114,6 +114,8 @@ const [documentType,setDocumentType] = useState('word')
         },
       },
     };
+    
+    return a
   
   },[url,key])
   return (
