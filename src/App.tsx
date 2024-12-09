@@ -85,9 +85,8 @@ function App() {
     
   }
 const [value,setValue] = useState('')
-const [url,setUrl] = useState("https://dev-microcraft-storage.microware1985.cn/microcraft/upload_files/b3cb25f3-089a-46a8-8db5-3bb9c4a89aa3/790c2fd4-3164-485a-ac16-0ed73ee2f019.pdf?AWSAccessKeyId=zF0oScWIYKm7Wj82u1Y8&Signature=IrVKTjsUw%2BindFq60Uvb%2F8ivyEA%3D&Expires=1730775995"
-)
-const [key,setKey] = useState('')
+const [url,setUrl] = useState("http://192.168.2.102:5173/111.docx")
+const [key,setKey] = useState(new Date().getTime().toString())
 const [fileType,setFileType] = useState('pdf')
 const [documentType,setDocumentType] = useState('word')
 
